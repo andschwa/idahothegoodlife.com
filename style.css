@@ -1,0 +1,131 @@
+/* Original colors: Blue is #29407C ; Yellow is #fda100 ; Red is #660000 */
+/* New colors are: dark blue is #00477F ; Medium blue is #4C88BE ; Light blue is #749abd; Pale yellow is #D9DB56 */
+body{
+	font-family: sans-serif;
+	font-size: 100%;
+	width: 900px;
+	margin: 0 auto;
+	background-color: #749abd;
+	background-image: url(gradient.jpg);
+	background-position: top left;
+	background-repeat: repeat-x}
+a:link{
+	color: #00477F;
+	text-decoration: underline}
+a:visited{
+	color: #00477F;
+	text-decoration: underline}
+a:hover{
+	color: #fda100;
+	text-decoration: underline}
+a:active{
+	color: #FFFFFF;
+	text-decoration: underline}
+a:link.menu{
+	float: left;
+	width: 148px;
+	text-decoration: none;
+	padding: 0.3em 0em 0.3em;
+	color: #FFFFFF;
+	background-color: #63993d;
+	margin-right: 2px}
+a:visited.menu{
+	float: left;
+	width: 148px;
+	text-decoration: none;
+	padding: 0.3em 0em 0.3em;
+	color: #FFFFFF;
+	background-color: #63993d;
+	margin-right: 2px}
+a:hover.menu{
+	float: left;
+	width: 148px;
+	text-decoration: none;
+	padding: 0.3em 0em 0.3em;
+	color: #FFFFFF;
+	background-color: #660000;
+	margin-right: 2px}
+a:active.menu{
+	float: left;
+	width: 148px;
+	text-decoration: none;
+	padding: 0.3em 0em 0.3em;
+	color: #FFFFFF;
+	background-color: #63993d;
+	margin-right: 2px}
+div#frame{
+	border: none;
+	width: 900px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	background-color: #FFFFFF}
+div#header{
+	text-align: center;
+	width: 900px;
+	height: 175px;
+	background-color: transparent}
+div#menu{
+	color: #fda100;
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 1.6em;
+	width: 900px}
+table#phone{
+	text-align: left;
+	width: 100%}
+div#content{
+	width: 880px;
+	margin: 10px;
+	background-color: #FFFFFF}
+div#links{
+	text-align: center;
+	margin: auto}
+div#footer{
+	text-align: center;
+	font-size: 1em;
+	color: #FFFFFF;
+	background-color: #63993d;
+	width: 880px;
+	margin: auto}
+img#banner{
+	border: none;
+	width: 900px;
+	height: 175px}
+img.noborder{
+	vertical-align: middle;
+	margin: 2px;
+	border: none}
+img.left{
+	float: left;
+	border: none;
+	margin-right: 10px}
+img.right{
+	float: right;
+	border: none;
+	vertical-align: middle}
+h1{
+	text-align: left;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #749abd}
+h2{
+	text-align: left;
+	font-size: 1em;
+	font-weight: normal;
+	color: #000000}
+p{
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	line-height: normal;
+	color: #000000}
+ul.menu{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none}
+li.menu{
+	display: inline;}
